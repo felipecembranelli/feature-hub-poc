@@ -1,0 +1,12 @@
+{
+  "name": "@feature-hub/website",
+  "version": "3.0.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "docusaurus": "^1.6.2"
+  }
+}

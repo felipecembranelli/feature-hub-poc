@@ -1,0 +1,21 @@
+{
+  "extends": "ts-config",
+  "linterOptions": {
+    "exclude": ["**/lib/**", "**/node_modules/**"]
+  },
+  "rules": {
+    "no-default-export": false,
+    "no-null-undefined-union": false,
+    "no-submodule-imports": [
+      true,
+      "lit-html",
+      "react-dom",
+      "systemjs",
+      "semver"
+    ],
+    "prefer-method-signature": false,
+    "strict-string-expressions": false,
+    "no-redundant-jsdoc": false,
+    "restrict-plus-operands": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "@feature-hub/core",
+  "version": "3.0.0",
+  "description": "Create scalable web applications using micro frontends.",
+  "keywords": [
+    "feature-app",
+    "feature-hub",
+    "feature-service",
+    "micro-frontends",
+    "react"
+  ],
+  "homepage": "https://feature-hub.io/",
+  "bugs": {
+    "url": "https://github.com/sinnerschrader/feature-hub/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sinnerschrader/feature-hub.git"
+  },
+  "license": "MIT",
+  "author": "SinnerSchrader Deutschland GmbH",
+  "files": [
+    "lib",
+    "!__tests__"
+  ],
+  "sideEffects": false,
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "typings": "lib/cjs/index.d.ts",
+  "dependencies": {
+    "semver": "^7.3.2",
+    "toposort": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/semver": "^7.3.4",
+    "@types/toposort": "^2.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "typedoc": {
+    "entryPoint": "./src/index.ts",
+    "readmeFile": "./README.md",
+    "displayName": "core"
+  }
+}

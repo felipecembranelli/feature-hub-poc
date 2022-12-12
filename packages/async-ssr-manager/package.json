@@ -1,0 +1,35 @@
+{
+  "name": "@feature-hub/async-ssr-manager",
+  "version": "3.0.0",
+  "description": "A Feature Service to manage asynchronous server-side rendering.",
+  "homepage": "https://feature-hub.io/",
+  "bugs": {
+    "url": "https://github.com/sinnerschrader/feature-hub/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sinnerschrader/feature-hub.git"
+  },
+  "license": "MIT",
+  "author": "SinnerSchrader Deutschland GmbH",
+  "files": [
+    "lib",
+    "!__tests__"
+  ],
+  "sideEffects": false,
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "typings": "lib/cjs/index.d.ts",
+  "dependencies": {
+    "@feature-hub/core": "^3.0.0",
+    "@feature-hub/logger": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "typedoc": {
+    "entryPoint": "./src/index.ts",
+    "readmeFile": "./README.md",
+    "displayName": "async-ssr-manager"
+  }
+}
